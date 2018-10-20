@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "google/protobuf/descriptor.proto";
+
+message DnFieldOptions {
+    string tags = 1;
+}
+
+extend google.protobuf.FieldOptions {
+    DnFieldOptions dn = 100002;
+}
