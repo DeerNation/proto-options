@@ -7,5 +7,5 @@ message DnFieldOptions {
 }
 
 extend google.protobuf.FieldOptions {
-    DnFieldOptions dn = 100002;
+    DnFieldOptions dno = 100002;
 }

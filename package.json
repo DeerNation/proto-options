@@ -1,6 +1,6 @@
 {
   "name": "deernation-proto-options",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Protobuf extensions needed by the DeerNation modules",
   "main": "index.js",
   "scripts": {
